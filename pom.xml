@@ -15,11 +15,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!-- Feel free to update to what you want, but remember that --> 
     <!-- ImageJ plugins require an underscore '_' in the name... --> 
     <groupId>net.ijtools</groupId>
-    <artifactId>Plugin_Template</artifactId>
+    <artifactId>ij_Register</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>plugins/Plugin_Template.jar</name>
-    <description>Simple project template for ImageJ plugins</description>
+    <name>plugins/ij_Register.jar</name>
+    <description>Registration library for ImageJ</description>
 
     <dependencies>
         <!-- When writing ImageJ/Fiji plugins, it is necessary to add a dependency 
