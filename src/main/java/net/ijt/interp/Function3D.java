@@ -3,6 +3,8 @@
  */
 package net.ijt.interp;
 
+import net.ijt.geom3d.Point3D;
+
 /**
  * A function of three variables that returns floating point values.
  * 
@@ -22,4 +24,17 @@ public interface Function3D
      * @return the result of evaluation
      */
     public double evaluate(double x, double y, double z);
+    
+    /**
+     * Evaluates the function at the specified position.
+     * 
+     * @param p
+     *            the position corresponding to the triplet of coordinates to
+     *            evaluate
+     * @return the result of evaluation
+     */
+    public default double evaluate(Point3D p)
+    {
+        return evaluate(p.getX(), p.getY(), p.getZ());
+    }
 }

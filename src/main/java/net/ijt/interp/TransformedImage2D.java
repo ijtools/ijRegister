@@ -10,6 +10,8 @@ import net.ijt.geom2d.Transform2D;
 /**
  * Evaluate values within an image after applying a transform to the coordinates.
  * 
+ * @see TransformedImage3D
+ * 
  * @author dlegland
  *
  */
@@ -35,6 +37,6 @@ public class TransformedImage2D implements Function2D
     public double evaluate(double x, double y)
     {
         Point2D p2 = transform.transform(new Point2D(x, y));
-        return interp.evaluate(p2.getX(), p2.getY());
+        return interp.evaluate(p2);
     }
 }

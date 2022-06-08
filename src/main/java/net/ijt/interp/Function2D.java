@@ -3,6 +3,8 @@
  */
 package net.ijt.interp;
 
+import net.ijt.geom2d.Point2D;
+
 /**
  * A function of two variables that returns floating point values.
  * 
@@ -20,4 +22,17 @@ public interface Function2D
      * @return the result of evaluation
      */
     public double evaluate(double x, double y);
+    
+    /**
+     * Evaluates the function at the specified position.
+     * 
+     * @param p
+     *            the position corresponding to the pair of coordinates to
+     *            evaluate
+     * @return the result of evaluation
+     */
+    public default double evaluate(Point2D p)
+    {
+        return evaluate(p.getX(), p.getY());
+    }
 }
