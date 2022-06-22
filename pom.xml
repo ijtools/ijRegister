@@ -16,7 +16,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!-- ImageJ plugins require an underscore '_' in the name... --> 
     <groupId>net.ijtools</groupId>
     <artifactId>ij_Register</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
 
     <name>plugins/ij_Register.jar</name>
     <description>Registration library for ImageJ</description>
