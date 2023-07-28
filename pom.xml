@@ -19,8 +19,15 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <version>0.0.1-SNAPSHOT</version>
 
     <name>plugins/ij_Register.jar</name>
-    <description>Registration library for ImageJ</description>
-
+    <description>Image registration library for ImageJ</description>
+    
+    <properties>
+        <!-- Use a LTS to facilitate protability -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <!-- Stick to the version of java supported by ImageJ -->
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    
     <dependencies>
         <!-- When writing ImageJ/Fiji plugins, it is necessary to add a dependency 
              to ImageJ jar -->
@@ -40,9 +47,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         
     </dependencies>
     
-    
     <build>
-        
         <resources>
             <resource>
                 <directory>${basedir}/src/main/resources</directory>
@@ -132,6 +137,5 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <url>http://maven.imagej.net/content/groups/public</url>
         </repository>
     </repositories>
-
 
 </project>
