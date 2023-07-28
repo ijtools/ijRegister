@@ -33,6 +33,6 @@ public interface Function2D
      */
     public default double evaluate(Point2D p)
     {
-        return evaluate(p.getX(), p.getY());
+        return evaluate(p.x(), p.y());
     }
 }
