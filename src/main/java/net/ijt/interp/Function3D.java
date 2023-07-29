@@ -35,6 +35,6 @@ public interface Function3D
      */
     public default double evaluate(Point3D p)
     {
-        return evaluate(p.getX(), p.getY(), p.getZ());
+        return evaluate(p.x(), p.y(), p.z());
     }
 }
