@@ -4,8 +4,8 @@
 package net.ijt.interp;
 
 import ij.ImageStack;
-import net.ijt.geom3d.Point3D;
-import net.ijt.geom3d.Transform3D;
+import net.ijt.geometry.geom3d.Point3D;
+import net.ijt.geometry.geom3d.Transform3D;
 
 /**
  * Evaluate values within an image after applying a transform to the coordinates.

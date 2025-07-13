@@ -4,8 +4,8 @@
 package net.ijt.interp;
 
 import ij.process.ImageProcessor;
-import net.ijt.geom2d.Point2D;
-import net.ijt.geom2d.Transform2D;
+import net.ijt.geometry.geom2d.Point2D;
+import net.ijt.geometry.geom2d.Transform2D;
 
 /**
  * Evaluate values within an image after applying a transform to the coordinates.

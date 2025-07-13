@@ -3,7 +3,7 @@
  */
 package net.ijt.interp;
 
-import net.ijt.geom3d.Point3D;
+import net.ijt.geometry.geom3d.Point3D;
 
 /**
  * A function of three variables that returns floating point values.

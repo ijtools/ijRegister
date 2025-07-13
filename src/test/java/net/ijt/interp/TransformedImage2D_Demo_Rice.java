@@ -7,8 +7,8 @@ import ij.IJ;
 import ij.ImagePlus;
 import ij.process.ByteProcessor;
 import ij.process.ImageProcessor;
-import net.ijt.geom2d.AffineTransform2D;
-import net.ijt.geom2d.Transform2D;
+import net.ijt.geometry.geom2d.AffineTransform2D;
+import net.ijt.geometry.geom2d.Transform2D;
 
 /**
  * @author dlegland
