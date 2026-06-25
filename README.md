@@ -14,6 +14,6 @@ is somewhat old (1.126), but I encountered configuration troubles with more rece
 The library is based on the following dependencies
 
 * ImageJ
-* ijGeometry
+* [ijGeometry](https://github.com/ijtools/ijGeometry)
 * JUnit
 
